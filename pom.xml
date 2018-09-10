@@ -18,7 +18,7 @@
         <webapp.directory>src/main/webapp</webapp.directory>
 
         <!-- Dependencies -->
-        <javaee.api.version>8.0</javaee.api.version>
+        <javaee.api.version>7.0</javaee.api.version>
         <vaadin.version>11.0.0</vaadin.version>
     </properties>
 
