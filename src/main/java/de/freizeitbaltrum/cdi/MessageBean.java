@@ -9,12 +9,13 @@ import com.vaadin.cdi.annotation.VaadinSessionScoped;
 public class MessageBean {
 
     private int counter;
+
     /**
      * Gets message data.
      *
      * @return a message
      */
     public String getMessage() {
-        return new StringBuilder("Message requested ").append(++counter).append(" times.").toString();
+        return new StringBuilder("Eine Message requested ").append(++counter).append(" times.").toString();
     }
 }
