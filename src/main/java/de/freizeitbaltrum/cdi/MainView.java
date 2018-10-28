@@ -19,7 +19,7 @@ public class MainView extends VerticalLayout {
     public MainView() {
         Button button = new Button("Click me",
                 event -> Notification.show(messageBean.getMessage()));
-        add(new H3("Hallo Freizeit Baltrum! - jetzt bei OpenShift!!"), button);
+        add(new H3("Hallo Freizeit Baltrum! - jetzt bei OpenShift!! asd"), button);
     }
 
 }
